@@ -1,6 +1,6 @@
-#Valentin Yurchenko
+# Valentin Yurchenko
 
-###That's my contacts
+### That's my contacts
 Telegram: @yurchenkoVG
 Discord: Valentin (@YurchenkoValentin)
 
