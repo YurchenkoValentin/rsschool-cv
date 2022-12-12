@@ -1,2 +1,2 @@
 # rsschool-cv
-Study project from Rolling Scope School
+https://github.com/YurchenkoValentin/rsschool-cv/blob/gh-pages/cv.md
