@@ -1,3 +1,107 @@
-p {
-    color:darksalmon;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    display: grid; /* check how grids works */
+    grid-template-columns: 33% 1fr;
+    margin: 1rem;
+    grid-gap: 1rem;
+    filter: drop-shadow(0 0 0.4rem black);
+}
+
+i {
+    color: green;
+}
+
+.left {
+    min-width: 290px;
+    max-width: 400px;
+    background-color: white;
+}
+
+.left-image {
+    position: relative;
+}
+
+.left-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: cover;
+    height: 250px;
+}
+
+.left-image h2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1rem;
+}
+
+.personal, .skills {
+    padding: 1rem; /* check how rem works */
+    line-height: 2;
+}
+
+.skills-languages{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.right {
+    height: 100%;
+}
+
+.experience, .eductaion {
+    background-color: white;
+    padding: 2rem;
+    line-height: 2;
+}
+
+.experience ul {
+    margin-top: 25px;
+}
+
+.experience-date {
+    color: green;
+}
+
+.experience-current_time {
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+    padding: 0.4rem;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-logo__github {
+    fill: white;
 }
