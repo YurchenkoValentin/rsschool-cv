@@ -22,9 +22,8 @@ I gradutaed Peter the Great St. Petersburg Polytechnic University in 2019.
 Master's degree in politican science
 
 ### Code Example
-I'm using Cypress io to automate my test cases. So there is an example of code 
-```Cypress 
-
+I'm using Cypress io to automate my test cases. So there is an example of code which fill application form and send it to serve
+``` 
 describe('Test Contact Us Page via WebdriverUni', () => {
   it.only('Should be able to submit a succesful submission via contact us from', () => {
     cy.visit('http://www.webdriveruniversity.com/Contact-Us/contactus.html')
