@@ -21,4 +21,25 @@ Right now I am responsible for implementing automation testing (JS + Cypress io)
 I gradutaed Peter the Great St. Petersburg Polytechnic University in 2019.  
 Master's degree in politican science
 
+### Code Example
+I'm using Cypress io to automate my test cases. So there is an example of code 
+```Cypress 
+
+describe('Test Contact Us Page via WebdriverUni', () => {
+  it.only('Should be able to submit a succesful submission via contact us from', () => {
+    cy.visit('http://www.webdriveruniversity.com/Contact-Us/contactus.html')
+    cy.document().should('have.property', 'charset').and('eq', 'UTF-8')
+    cy.title().should('include', 'WebDriver | Contact Us')
+    cy.url().should('include', 'Contact-Us')
+    //cy.get('#contact-us').click()
+    cy.get('[name="first_name"]').type('Joe')
+    cy.get('[name="last_name"]').type('blogs')
+    cy.get('[name="email"]').type('joe_blogs123@gmail.com')
+    cy.get('textarea.feedback-input').type('How can I learn Cypress?')
+    cy.get('[type="submit"]').click()
+    cy.get('#contact_reply h1').should('have.text', 'Thank You for your Message!')
+  })
+});
+```
+
 Here is my [LinkedIn](https://www.linkedin.com/in/valentin-yurchenko-215754259/)
