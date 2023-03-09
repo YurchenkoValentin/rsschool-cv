@@ -22,7 +22,7 @@ I gradutaed Peter the Great St. Petersburg Polytechnic University in 2019.
 Master's degree in politican science
 
 ### Code Example
-I'm using Cypress io to automate my test cases. So there is an example of code which fill application form and send it to serve
+I'm using Cypress io to automate my test cases. So there is an example of code which fill application form and send it to server
 ``` 
 describe('Test Contact Us Page via WebdriverUni', () => {
   it('Should be able to submit a succesful submission via contact us from', () => {
@@ -40,5 +40,5 @@ describe('Test Contact Us Page via WebdriverUni', () => {
   })
 });
 ```
-
+### My Social
 Here is my [LinkedIn](https://www.linkedin.com/in/valentin-yurchenko-215754259/)
