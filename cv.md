@@ -1,9 +1,9 @@
 # Valenin Yurchenko
 
 ### About
-2+ years experience working as quality assurance engineer
-Web, Desktop, Mobile. Frontend and Backend
-Automation. JavaScript + Cypress io
+2+ years experience working as quality assurance engineer  
+Web, Desktop, Mobile. Frontend and Backend  
+Automation. JavaScript + Cypress io  
 
 ### Skills:
 1. Automation: Cypress io, JavaScript, Chai Js, Mocha
